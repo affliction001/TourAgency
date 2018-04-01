@@ -1,0 +1,92 @@
+@media (max-width: 480px) {
+
+	.header-title {
+		font-size: 30px;
+		padding: 55px 0 0 10px;
+	}
+	.header-text {
+		font-size: 16px;
+		padding: 2px 0 0 10px;
+	}
+
+	.nav-menu-element:nth-child(1) {width: 100%;}
+	.nav-menu-element:nth-child(2) {width: 100%;}
+	.nav-menu-element:nth-child(3) {width: 100%;}
+	.nav-menu-element:nth-child(4) {width: 100%;}
+	.nav-menu-element:nth-child(5) {width: 100%;}
+	.nav-menu-element:nth-child(6) {width: 100%;}
+	.nav-menu-element {
+		padding-top: 10px;
+	}
+
+	.country {
+		display: inline-block;
+		width: 100%;
+		margin: 0;
+		vertical-align: top;
+	}
+	.country-list {
+		padding-left: 30px;
+	}
+	.country-img {
+		padding-left: 5px;
+	}
+	.country-list-element {
+		display: inline-block;
+		width: 50%;
+	}
+	.sidebar {
+		display: none;
+	}
+	.main {
+		margin-top: 20px;
+	}
+
+	.content {
+		width: 100%;
+	}
+	.content-hot {
+		margin-top: 20px;
+		font-weight: 400;
+		font-size: 20px;
+	}
+	
+	.content {
+		margin: 0;
+		padding: 0 20px 0 20px;
+	}
+	.content-row {
+		padding-right: 0;
+	}
+	.content-desc {
+		padding: 0;
+		margin: 0;
+	}
+	.line-l, .line-r {
+		width: 30px;
+	}
+	.cell-title-text {
+		padding: 0;
+		font-size: 20px;
+		font-weight: 400;
+	}
+	.content-row-cell {
+		width: 100%;
+	}
+	.content-row-cell:last-child {
+		margin-right: 0;
+	}
+
+	.addres {
+		width: 100%;		
+	}
+	.telephone {
+		width: 100%;
+	}
+	.site {
+		width: 100%;
+	}
+	.site-text:last-child {
+		margin-top: 10px;
+	}
+}

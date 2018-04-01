@@ -1,0 +1,51 @@
+@media (max-width: 1000px) {
+	
+	.nav-menu-element:nth-child(1) {width: 33.33%;}
+	.nav-menu-element:nth-child(2) {width: 33.33%;}
+	.nav-menu-element:nth-child(3) {width: 33.33%;}
+	.nav-menu-element:nth-child(4) {width: 33.33%;}
+	.nav-menu-element:nth-child(5) {width: 33.33%;}
+	.nav-menu-element:nth-child(6) {width: 33.33%;}
+	.nav-menu-element:last-child {
+		padding-top: 10px;
+	}
+
+	.aside, .content {
+		width: 100%;
+	}
+	.country {
+		display: inline-block;
+		width: 100%;
+		margin: 0;
+		vertical-align: top;
+	}
+	.country-list-element {
+		display: inline-block;
+		width: 25%;
+	}
+	.sidebar {
+		display: inline-block;
+		width: 100%;
+		vertical-align: top;
+		margin-bottom: 50px;
+	}
+	.news, .banners {
+		display: inline-block;
+		width: 50%;
+		margin: 0;
+		vertical-align: top;
+	}
+	.news {
+		margin-top: 93px;
+	}
+	.news-header {
+		padding-bottom: 20px;
+	}
+	
+	.content {
+		margin: 0 0 0 30px;
+	}
+	.line-l, .line-r {
+		width: 40px;
+	}
+}
